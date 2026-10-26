@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  tasktracker:
+    build: .
+    image: tasktracker-app:latest
+    container_name: tasktracker-container
+    stdin_open: true
+    tty: true
