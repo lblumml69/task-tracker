@@ -41,6 +41,9 @@ tasktracker-projeto/
 └── src/
     └── main.py
 ```
+docker build
+docker run -it
+docker compose run
 
 ## Autor
 
